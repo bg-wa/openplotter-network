@@ -4,8 +4,8 @@
 
 hname=`hostname -f`
 hlname="${hname}.local"
-#10.10.10.1 is the fixed address of the host (look for it in /etc/dhcpcd.conf) 
-line="10.10.10.1	${hname}.local ${hname}"
+#192.168.0.1 is the fixed address of the host (look for it in /etc/dhcpcd.conf)
+line="192.168.0.1	${hname}.local ${hname}"
 
 response=$1
 
